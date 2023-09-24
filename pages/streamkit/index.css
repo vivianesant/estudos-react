@@ -1,0 +1,738 @@
+    * {
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.faixa1 {
+    display: flex;
+    flex-direction: column;;
+    background-color: #5865f2;
+    height: 60vh;
+    
+}
+.cabecalho {
+    padding: 120px 40px;
+}
+.cabecalho > h1 {
+    color: rgb(255, 255, 255);
+    font-family: 'discfont1';
+    display: flex;
+    font-size: 56px;
+    top: 15vh;
+    margin: 0px 60px 0px;
+
+}
+.cabecalho > h2 {
+        color:rgb(255, 255, 255);
+        font-family: 'discfont3';
+        font-weight: 100px;
+        display: flex;
+        margin: 24px 60px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    padding: 0px 40px;
+    color: white;
+    
+}
+
+.discord {
+    display: flex;
+    align-self: center;
+    width: 123px;
+    height: 33px;
+    margin-right: 40px;
+}
+   
+.menu > a {
+    color: white;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    font-family: 'fontt4';
+
+}
+
+#abrir {
+    color: black;
+    border: 15px solid white;
+    border-radius: 30px;
+    background-color: white;
+    display: flex;
+    margin-left: 30px;
+}
+
+.faixa2 {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+    height: vh;
+    padding: 120px 40px;
+      
+}
+.plano2 {
+    padding: 9px 40px;
+}
+.plano2 > h1 {
+    display: flex;
+    margin: 0px 40px;
+    font-family: 'discfont3';
+}
+
+.plano2 > p {
+    display: flex;
+    margin: 28px 40px;
+    font-family: 'fontt7';
+    font-size: 20px;;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 56px;
+    padding-top: 56px;
+    
+}
+
+.card1 {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.card1 > h5 {
+    text-align: center;
+    color: #5865f2;
+    font-family: 'font5';
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.card1 > p {
+    text-align: center;
+    font-family: 'fontt7';
+    margin-top: 8px;
+    
+    
+}
+
+  img {
+    align-self: center;
+    justify-content: center;
+}
+
+.card2 {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+.card2 > h5 {
+    text-align: center;
+    color:#5865f2;
+    font-family: 'font5';
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.card2 > p {
+    text-align: center;
+    font-family: 'fontt7';
+    margin-top: 8px;
+}
+
+.card3 {
+    display:flex;
+    flex-direction: column;
+    padding: 0px 40px;
+}
+
+.card3 > h5 {
+    text-align: center;
+    color: #5865f2;
+    font-family: 'font5';
+    font-size: 24px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.card3 > p {
+    text-align: center;
+    font-family: 'fontt7';
+    margin-top: 8px;
+    
+}
+
+
+.faixa3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #f6f6f6;
+    
+    padding: 120px 0px;
+    
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conteudo > h1 {
+    display: flex;
+    font-family: 'discfont1';
+    margin: 0px 40px;
+}
+
+.conteudo > p {
+    display: flex;
+    text-align: center;
+    font-family: 'fontt7';
+    font-size: 20px;
+    margin: 24px;
+}
+
+.grupo  {
+    display: flex;
+    flex-direction: column;
+    margin: 80px;
+    
+}
+
+.linha1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+
+.patreon  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 580px;
+    height: 670px;
+    padding: 80px 100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header > img {
+        display: flex;
+        width: 66px;
+        height: 80px;
+    
+}
+
+#h5 {
+    display: flex;
+    font-family: 'fontt6';
+    font-size: 32px;
+    margin: 20px 0px 0px;
+    
+}
+
+.header > p {
+    display: flex;
+    text-align: center;
+    font-family: 'fontt7';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0px 0px;
+
+}
+
+.lista1 {
+    display: flex;
+    flex-direction: column;
+    
+    margin-top: 20px;
+    padding-inline-start: none; 
+    
+}
+
+.opcoes  {
+    display: flex;
+    font-family: 'fontt7';
+    font-size: 14px;
+    
+}
+
+.texto {  
+    margin: 0px 0px 16px;
+ }
+
+ .check {
+    color: greenyellow;
+}
+.botao {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.botao > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+    
+}
+
+.links {
+    display: flex;
+    justify-content:space-evenly;
+    color: rgb(80, 211, 255);
+    margin-top: 20px;
+    font-family: 'fontt7';
+    
+}
+
+.nightbot  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 580px;
+    height: 670px;
+    padding: 80px 100px;
+}
+
+.header > img {
+    display: flex;
+    align-items: center;
+    width: 66px;
+    height: 80px;
+
+}
+
+.header > h5 {
+    display: flex;
+    justify-content: center;
+    font-family: 'fontt6';
+    font-size: 32px;
+    margin: 20px 0px 0px;
+    
+}
+
+.header > p {
+    display: flex;
+    text-align: center;
+    font-family: 'fontt7';
+    font-size: 16px;
+    line-height: 24px;
+    margin: 20px 0px;
+
+}
+
+.lista3 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    list-style: none;
+    
+}
+
+ .opcoes  {
+    line-height: 18px;
+    font-family: 'fontt7';
+    font-size: 14px;
+
+}
+
+.texto {
+    display: flex;
+    margin: 0px 0px 16px; 
+
+ }
+
+ .botao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao2 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.links1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(80, 211, 255);
+    margin-top: 20px;
+    font-family: 'fontt7';
+    
+}
+.linha2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.youtube {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    border-radius: 16px;
+    width: 580px;
+    height: 670px;
+    padding: 80px 100px;
+}
+
+.botao3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao3 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.twitch {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        border-radius: 16px;
+        width: 580px;
+        height: 670px;
+        padding: 80px 100px;
+}
+
+.botao2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao2 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.links1 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(80, 211, 255);
+    margin-top: 20px;
+    font-family: 'fontt7';
+    
+}
+
+.linha3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+}
+
+.OBS {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 16px;
+        width: 580px;
+        height: 670px;
+        padding: 80px 100px;
+    
+}
+
+.botao4 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao4 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.links2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(80, 211, 255);
+    margin-top: 20px;
+    font-family: 'fontt7';
+    
+}
+
+.xsplit {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 16px;
+        width: 580px;
+        height: 670px;
+        padding: 80px 100px;
+    
+}
+
+.botao5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao5 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.links2 {
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(80, 211, 255);
+    margin-top: 20px;
+    font-family: 'fontt7';
+    
+}
+
+
+.linha4 {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+
+.streamer {
+        display: flex;
+        flex-direction: column;
+        background-color: white;
+        border-radius: 16px;
+        width: 580px;
+        height: 670px;
+        margin: 0px 29px;
+        padding: 80px 100px;
+    
+}
+
+.botao6 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botao6 > a {
+    line-height: 24px;
+    text-align: center;
+    font-family: 'fontt3';
+    padding: 7px 16px;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    width: 13vw;
+    background-color: #5865f2;
+}
+
+.faixa4 {
+    display: flex;
+    flex-direction: row;
+    background-color: #23272a;
+    height: 60vh;
+    padding: 80px 0px 64px;
+}
+
+.acessar {
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    margin-left: 56px;
+}
+
+.acessar > h1 {
+    color: #5865f2;
+    font-family: 'fontt1';
+}
+
+.legenda {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+    
+}
+
+.idioma {
+    font-family: 'fontt7';
+    color:rgb(255, 255, 255);
+}
+
+ .idioma > img {
+    width: 23px;
+    height: 16px;
+    margin: 0px 8px 0px 0px;
+ }
+
+ .contatos  {
+    margin-top: 24px;
+    margin-right: 8px;
+    color: white;
+    width: 180px;
+ }
+
+ svg {
+    width: 23px;
+    height: 23px;
+ }
+
+.espaco {
+    width: 80px;
+    height: 300px
+}
+.catalogo {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+ a {
+    color:rgb(255, 255, 255);
+    font-family: 'fontt2';
+    font-size: 16px;
+    margin-top: 8px;
+    width: 180px;
+ }
+
+ .recursos > h5 {
+    color: #5865f2;
+    font-family: 'fontt2';
+    font-size: 16px;
+    margin-top: 8px;
+
+ }
+
+.empresa {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    
+}
+
+.recursos {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.politica {
+    display: flex;
+    flex-direction: column;
+    margin-right: 56px;
+    
+}
+
+.rodape {
+    background-color: #23272a;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.divisao {
+    display: flex;
+    align-items: center;
+    background-color: #5865f2;
+    width: 85vw;
+    height: 1px;
+    margin-bottom: 32px;
+}
+
+.rdp2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 40px;
+    align-items: center;
+    height: ;
+    background-color: #23272a;
+}
+
+.rdp2 > svg {
+    color: white;
+    width: 123px;
+    height: 33px;
+    margin-bottom: 64px;
+}
+
+.redirecionar {
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.redirecionar > a {
+    color: black;
+    border: 15px solid white;
+    border-radius: 30px;
+    background-color: white;
+    margin-left: 30px;
+}

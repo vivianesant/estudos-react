@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'fontt1';
+    src: url('fontt1.woff2');
+}
+
+@font-face {
+    font-family: 'fontt2';
+    src: url('fontt2.woff2');
+}
+
+@font-face {
+    font-family: 'fontt3';
+    src: url('fontt3.woff2');
+
+}
+
+@font-face {
+    font-family: 'fontt4';
+    src: url('fontt4.woff2');
+}
+
+@font-face {
+    font-family: 'font5';
+    src: url('font5.woff2');
+}
+
+@font-face {
+    font-family: 'fontt6';
+    src: url('fontt6.woff2');
+}
+
+@font-face {
+    font-family: 'fontt7';
+    src: url('fontt7.woff2');
+}
+@font-face {
+    font-family: 'discfont1';
+    src: url('../../assets/fonts/discfont1.woff2');
+}
+
+@font-face {
+    font-family: 'discfont2';
+    src: url('../../assets/fonts/discfont2.woff2');
+}
+
+@font-face {
+    font-family: 'discfont3';
+    src: url('../../assets/fonts/discfont3.woff2');
+}
